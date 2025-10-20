@@ -1,0 +1,4 @@
+requests
+pytelegrambotapi
+schedule
+pytz
