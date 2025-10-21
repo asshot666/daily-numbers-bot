@@ -49,8 +49,8 @@ def post_to_channel():
         print(f"Ошибка при отправке: {e}")
 
 # Расписание (по МСК)
-schedule.every().day.at("20:03").do(post_to_channel)
-schedule.every().day.at("20:04").do(post_to_channel)
+schedule.every().day.at("09:00").do(post_to_channel)
+schedule.every().day.at("18:00").do(post_to_channel)
 
 print("Бот запущен и ждёт времени постинга...")
 
